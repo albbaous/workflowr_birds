@@ -1,7 +1,7 @@
-name: "workflowr_birds"
+name: workflowr_birds
 output_dir: ../docs
 navbar:
-  title: "workflowr_birds"
+  title: workflowr_birds
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fab fa-github
+    text: Source code
+    href: https://github.com/albbaous/workflowr_birds
 output:
   workflowr::wflow_html:
     toc: yes
